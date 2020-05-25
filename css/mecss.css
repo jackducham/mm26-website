@@ -50,6 +50,7 @@
 	font-weight: 700;
 	font-style: normal;
 	font-size: 25pt;
+	color: #C28B2D;
 }
 
 .col-2-SPECIAL{
@@ -160,4 +161,12 @@ a:hover{
 	font-style: normal;
 	color: #a06733;
 	font-size: 25pt;
+}
+
+#headerStuff{
+	height: 8em;
+}
+
+#websiteMeat{
+	background-color: aliceblue;
 }
