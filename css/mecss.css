@@ -46,7 +46,7 @@
 	text-align: center;
 	align-content: center;
 	border: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
 	font-size: 25pt;
@@ -67,7 +67,7 @@
 .headerButton:hover{
 	transition: 0.5s ease;
 	border: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
 	color: #a34633;
@@ -115,7 +115,7 @@ a:hover{
 .centerText{
 	text-align: center;
 	align-content: center;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: verdigris-mvb-pro-text, urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
 	color: #a06733;
@@ -133,7 +133,7 @@ footer{
 	padding-top: 3%;
 	text-align: center;
 	align-content: center;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: verdigris-mvb-pro-text, urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-style: normal;
 	color: #a06733;
@@ -153,20 +153,20 @@ a:hover{
 	transition: 0.5s ease;
 }
 
-#launchText {
-	text-align: center;
-	align-content: center;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 700;
-	font-style: normal;
-	color: #a06733;
-	font-size: 25pt;
-}
-
 #headerStuff{
 	height: 8em;
 }
 
 #websiteMeat{
 	background-color: aliceblue;
+	border-radius: 10px;
+}
+
+.meatWords{
+	padding: 12px;
+	align-content: center;
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12pt;
 }
