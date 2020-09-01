@@ -51,6 +51,7 @@
 	font-style: normal;
 	font-size: 25pt;
 	color: #C28B2D;
+	
 }
 
 .col-2-SPECIAL{
@@ -130,15 +131,23 @@ a:hover{
 }
 
 footer{
+	position: absolute;
+	bottom: 10px;
 	padding-top: 3%;
-	text-align: center;
-	align-content: center;
+	width: 100%;
+	margin: auto;
 	font-family: verdigris-mvb-pro-text, urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-style: normal;
 	color: #a06733;
-	font-size: 12pt;
+	font-size: 11pt;
 }
+
+.centerFoot{
+	margin: auto;
+}
+
+
 
 a:link{
 	color: #A89A9A;
