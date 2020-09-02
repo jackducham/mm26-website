@@ -132,19 +132,18 @@ a:hover{
 
 footer{
 	position: absolute;
-	bottom: 10px;
-	padding-top: 3%;
 	width: 100%;
-	margin: auto;
+	bottom: 0px;
+	background-color: #7a171f;
+	z-index: 0;
+}
+
+.centerFoot{
 	font-family: verdigris-mvb-pro-text, urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-style: normal;
 	color: #a06733;
 	font-size: 11pt;
-}
-
-.centerFoot{
-	margin: auto;
 }
 
 
@@ -172,12 +171,26 @@ a:hover{
 	border-radius: 10px;
 }
 
+#creditsMeat{
+	padding: 12px;
+	background-color: #F4ECE2;
+	border-radius: 10px;
+	text-align: center;
+}
+
 .meatWords{
 	align-content: center;
 	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
 	font-size: 12pt;
+}
+
+.meatWords dt{
+	font-size: 13pt;
+}
+.meatWords dd{
+	font-size: 10pt;
 }
 
 #credits{
