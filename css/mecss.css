@@ -167,15 +167,23 @@ a:hover{
 }
 
 #websiteMeat{
+	padding: 12px;
 	background-color: #F4ECE2;
 	border-radius: 10px;
 }
 
 .meatWords{
-	padding: 12px;
 	align-content: center;
 	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
 	font-size: 12pt;
+}
+
+#credits{
+	align-content: center;
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15pt;
 }
