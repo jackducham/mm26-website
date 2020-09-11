@@ -49,7 +49,7 @@
 	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
-	font-size: calc(10px + 15 * ((100vw - 320px) / 680));
+	font-size: calc(10px + 12 * ((100vw - 320px) / 680));
 	color: #C28B2D;
 	flex: 1;
 }
@@ -61,7 +61,7 @@
 	font-weight: 700;
 	font-style: normal;
 	color: #a34633;
-	font-size: calc(10px + 15 * ((100vw - 320px) / 680));
+	font-size: calc(10px + 12 * ((100vw - 320px) / 680));
 	flex: 1;
 }
 
