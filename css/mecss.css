@@ -75,7 +75,7 @@
 }
 
 footer{
-	padding-top: 3%;
+	position: absolute;
 	text-align: center;
 	align-content: center;
 	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -83,6 +83,10 @@ footer{
 	font-style: normal;
 	color: #a06733;
 	font-size: 12pt;
+	width: 100%;
+	bottom: 0;
+	background-color: #7a171f;
+	z-index: 0;
 }
 
 a:link{
@@ -99,7 +103,9 @@ a:hover{
 }
 
 .fullBody{
-	background-color: #7a171f;
+	position: relative;
+	min-height: 100vh;
+	background-image:url("../images/MMBG.jpg")
 }
 
 .center{
@@ -129,13 +135,6 @@ a:hover{
   max-width: 25%;
 }
 
-footer{
-	position: absolute;
-	width: 100%;
-	bottom: 0px;
-	background-color: #7a171f;
-	z-index: 0;
-}
 
 .centerFoot{
 	font-family: verdigris-mvb-pro-text, urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
