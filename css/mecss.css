@@ -8,37 +8,6 @@
 	align-content: center;
 }
 
-.centerText{
-	text-align: center;
-	align-content: center;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 700;
-	font-style: normal;
-	color: #a06733;
-	font-size: 25pt;
-}
-
-.centerText-Body{
-	text-align: center;
-	align-content: center;
-	text-align: justify;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 700;
-	font-style: normal;
-	color: #a06733;
-	font-size: 16pt;
-}
-.centerText-BodyHeader{
-	text-align: center;
-	align-content: center;
-	text-align: justify;
-	font-family: urw-din, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 700;
-	font-style: normal;
-	color: #A06733;
-	font-size: 25pt;
-}
-
 .headerButton{
 	background-color: transparent;
 	width: 100%;
@@ -166,7 +135,7 @@ a:hover{
   margin-bottom: 10px;
 }
 
-#websiteMeat{
+.websiteMeat{
 	padding: 12px;
 	background-color: #F4ECE2;
 	border-radius: 10px;
@@ -181,6 +150,7 @@ a:hover{
 
 .meatWords{
 	align-content: center;
+	text-align: center;
 	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
@@ -188,10 +158,20 @@ a:hover{
 }
 
 .meatWords dt{
-	font-size: 13pt;
+	font-size: 14pt;
 }
 .meatWords dd{
 	font-size: 10pt;
+	padding-bottom: 5px;
+}
+
+#indexMeat{
+	align-content: center;
+	text-align: center;
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16pt;
 }
 
 #credits{
