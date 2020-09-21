@@ -154,7 +154,7 @@ a:hover{
 	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 700;
 	font-style: normal;
-	font-size: 12pt;
+	font-size: 13pt;
 }
 
 .meatWords dt{
@@ -163,6 +163,15 @@ a:hover{
 .meatWords dd{
 	font-size: 10pt;
 	padding-bottom: 5px;
+}
+
+.meatDown{
+	align-content: center;
+	text-align: center;
+	font-family: verdigris-mvb-pro-text, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25pt;
 }
 
 #indexMeat{
