@@ -1,4 +1,4 @@
-var countDownDate = new Date("September 25, 2020 15:37:00").getTime();
+var countDownDate = new Date("September 25, 2020 19:30:00 CDT").getTime();
 
 var oneTicInterval = setInterval(function() {
   var currentDate = new Date().getTime();
